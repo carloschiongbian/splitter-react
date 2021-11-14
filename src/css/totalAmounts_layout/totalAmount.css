@@ -1,0 +1,70 @@
+.total-amounts {
+  background-color: #00494d;
+  border-radius: 10px;
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+}
+
+.total-amounts .heading-and-subheading {
+  margin-top: 25px;
+}
+
+.total-amounts .heading-and-subheading label {
+  color: #f4fafa;
+  font-weight: 700;
+  margin-left: 20px;
+  display: block;
+}
+
+.total-amounts .heading-and-subheading label[for="subheading"] {
+  color: #7f9c9f;
+  margin-bottom: 40px;
+}
+
+.total-amounts .heading-and-subheading label[for="subheading"]:last-child {
+  margin-bottom: 0px;
+}
+
+.total-amounts .results {
+  color: #7f9c9f;
+  font-size: 45px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.total-amounts .results #tip-amount-per-person {
+  margin-top: 15px;
+}
+
+.total-amounts .results #total-amount {
+  margin-top: 20px;
+}
+
+.total-amounts .reset-button {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 3;
+  -ms-grid-row: 2;
+      grid-row-start: 2;
+  grid-row-end: 2;
+  margin-top: 130px;
+}
+
+.total-amounts .reset-button button[name="reset"] {
+  color: #00494d;
+  background-color: #7f9c9f;
+  width: 95%;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=totalAmount.css.map */

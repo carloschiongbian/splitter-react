@@ -1,0 +1,122 @@
+.user-inputs label {
+  display: block;
+  color: #5e7a7d;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.user-inputs label:first-child {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.user-inputs label:last-child {
+  display: inline;
+}
+
+.user-inputs label[for="no-of-people-label"] {
+  float: left;
+  margin-right: 120px;
+}
+
+.user-inputs label[for="no-of-people-warning"] {
+  color: crimson;
+  display: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.user-inputs input[name="bill-amount"], .user-inputs input[name="no-of-people"] {
+  background-color: #f4fafa;
+  outline-color: #5e7a7d;
+  height: 38px;
+  width: 90%;
+  border: none;
+  border-radius: 5px;
+  padding-inline: 15px;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+  color: #00494d;
+}
+
+.user-inputs input[name="bill-amount"]::-webkit-outer-spin-button, .user-inputs input[name="bill-amount"]::-webkit-inner-spin-button, .user-inputs input[name="no-of-people"]::-webkit-outer-spin-button, .user-inputs input[name="no-of-people"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.user-inputs input[name="bill-amount"] {
+  background-image: url("../../images/icon-dollar.svg");
+  background-repeat: no-repeat;
+  background-position: 15px;
+}
+
+.user-inputs input[name="no-of-people"] {
+  background-image: url("../../images/icon-person.svg");
+  background-repeat: no-repeat;
+  background-position: 15px;
+}
+
+.user-inputs .tip-options {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.user-inputs .tip-options button {
+  background-color: #00494d;
+  color: white;
+  height: 60px;
+  font-size: 22px;
+  font-weight: 700;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.user-inputs .tip-options button:focus {
+  background-color: #c5e4e7;
+  color: #00494d;
+}
+
+.user-inputs .tip-options button:focus:hover {
+  background-color: #c5e4e7;
+  color: #00494d;
+}
+
+.user-inputs .tip-options button:hover {
+  background-color: #5e7a7d;
+  color: #f4fafa;
+}
+
+.user-inputs .tip-options button[name="custom-tip"] {
+  background-color: #f4fafa;
+  color: #5e7a7d;
+}
+
+.user-inputs .tip-options button[name="custom-tip"]:hover {
+  background-color: #5e7a7d;
+  color: #f4fafa;
+}
+
+.user-inputs input[name="input-custom-tip"] {
+  background-color: #f4fafa;
+  height: 53px;
+  width: 87%;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  display: none;
+  border-radius: 5px;
+  border: 2px solid #5e7a7d;
+  outline-color: #5e7a7d;
+}
+
+.user-inputs input[name="input-custom-tip"]::-webkit-outer-spin-button, .user-inputs input[name="input-custom-tip"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+/*# sourceMappingURL=userInput_layout.css.map */
