@@ -1,3 +1,7 @@
+.total-amounts > * {
+  width: 100%;
+}
+
 .total-amounts {
   background-color: #00494d;
   border-radius: 10px;
