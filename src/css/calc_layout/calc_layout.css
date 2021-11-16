@@ -30,6 +30,9 @@
     padding: 45px;
     max-width: 60%;
   }
+  .calculator-layout > * {
+    width: 100%;
+  }
   .right-section {
     margin-left: 20px;
   }
