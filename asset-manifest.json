@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/splitter-react/static/css/main.6ab0dacd.chunk.css",
+    "main.js": "/splitter-react/static/js/main.7d339b48.chunk.js",
+    "main.js.map": "/splitter-react/static/js/main.7d339b48.chunk.js.map",
+    "runtime-main.js": "/splitter-react/static/js/runtime-main.33df4c8d.js",
+    "runtime-main.js.map": "/splitter-react/static/js/runtime-main.33df4c8d.js.map",
+    "static/js/2.b59f659b.chunk.js": "/splitter-react/static/js/2.b59f659b.chunk.js",
+    "static/js/2.b59f659b.chunk.js.map": "/splitter-react/static/js/2.b59f659b.chunk.js.map",
+    "index.html": "/splitter-react/index.html",
+    "static/css/main.6ab0dacd.chunk.css.map": "/splitter-react/static/css/main.6ab0dacd.chunk.css.map",
+    "static/js/2.b59f659b.chunk.js.LICENSE.txt": "/splitter-react/static/js/2.b59f659b.chunk.js.LICENSE.txt",
+    "static/media/userInput_layout.css": "/splitter-react/static/media/icon-person.65bfd204.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.33df4c8d.js",
+    "static/js/2.b59f659b.chunk.js",
+    "static/css/main.6ab0dacd.chunk.css",
+    "static/js/main.7d339b48.chunk.js"
+  ]
+}
